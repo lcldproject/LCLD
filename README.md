@@ -1,2 +1,2 @@
 # LCLD
-Aplikacija za vremensku prognozu
+Fileovi aplikacije za vremensku prognozu
