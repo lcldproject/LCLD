@@ -1,0 +1,34 @@
+
+- Front End
+    - Weather class
+        - Data model
+        - get_weather()
+            - Static function
+            - Takes city name as input
+            - Fetches data from openweather API
+            - Returns weather object
+    - Interface.py module
+        - Add cities (if needed)
+        - Enter city
+            - Would be nice to display predictive results
+        - Fetch data (get_weather(city))
+        - Display data
+    - Database.py module
+        - create_table()
+        - save_weather()
+        - get_searches()
+        - find_nearest()
+- Back end
+    - City model
+    - Weather model
+
+Display:
+- Sky conditions
+    - Small Description (Cloudy, sunny)
+    - Large Icon (Got from open weather map)
+- Temp/Humidity
+    - Small Humidity (%)
+    - Large Temp (ºC)
+- Wind conditions
+    - Small compass direction (NW, W, SE etc.)
+    - Large Windspeed (Kts or Ms)
